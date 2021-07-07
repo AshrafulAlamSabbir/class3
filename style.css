@@ -1,0 +1,177 @@
+
+h1,h2,h3,h4,h5,h6,input,button,span,p{
+	font-family: 'Source Sans Pro', sans-serif;
+} 
+a{
+	text-decoration: none;
+}
+.container{
+	width: 1140px;
+	 	margin: 0 auto;
+
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+}
+.menu-item ul li{
+	list-style: none;
+	display: inline-block;
+	line-height: 50px;
+	margin-left: 26px;
+
+
+}
+.header{
+	padding: 16px 0px;
+	border-bottom: 1px solid #eee;
+
+}
+.menu-item ul li a{
+	color: #6b6b6b;
+}
+
+ 
+
+.banner{
+	padding: 60px 0px;
+	text-align: center;
+}
+.banner-text h1{
+	font-size:56px;
+	color: #0f2656;
+	margin-bottom: 16px;
+} 
+.banner-text h1 span{
+	color: #008aff;
+}
+.banner-text p{
+	font-size: 16px;
+	line-height: 26px;
+	margin-bottom: 16px;
+
+}
+.project{
+	padding:60px 0px;  
+}
+.project-ideas{
+	display: flex;
+}
+.left {
+	text-align: right;
+	margin-right: 16px;
+
+
+}
+.left h2{
+	font-size: 56px;
+	color: #f15767;
+	font-weight: 700;
+}
+.left p{
+	font-size: 16px;
+	font-weight: 400;
+
+}
+.left,.right{
+	flex-basis: 50%;
+ }
+ .right{
+ 	font-size: 46px;
+	color: #0f2656;
+	font-weight: 700;
+	margin-left: 16px;
+
+ }
+ .services{
+ 	padding: 40px 0 60px 0px;
+
+ }
+ .service-item{
+ 	display: flex;
+
+ }
+.item-1{
+	background:#fdebed; 
+
+}
+.item-2{
+	background: #ebf9f4;
+
+}
+.item-3{
+	background: #fff7e8;
+
+}
+.item-1, .item-2, .item-3{
+	margin: 16px;
+	padding: 32px;
+
+}
+/*jehetu 3 ta div r 3 tai same tahole ei 3 tar je div e ase seta dore kaj korlew hoito.  
+mane service-item ke niye kaj korle alada alada codekora lagbe na.ekta ke korlei hobe.  
+r jodi alada alada contaient takto 3 ta div e tagole  emn alda alda korecode kora lagbe.*/
+/*.item-1 img{
+	margin-bottom: 16px;
+}
+.item-2 img{
+	margin-bottom: 16px;
+}
+.item-3 img{
+	margin-bottom: 16px;
+}
+.item-1 h3{
+	 color: #0f2656;
+	 font-size: 24px;
+	  margin-bottom: 16px;
+
+}
+.item-2 h3{
+	 color: #0f2656;
+	 font-size: 24px;
+	  margin-bottom: 16px;
+}
+.item-2 h3{
+	 color: #0f2656;
+	 font-size: 24px;
+	  margin-bottom: 16px;
+}
+ .item-1 p{
+	font-size: 16px;
+	font-weight: 300;
+
+}
+.item-2 p{
+	font-size: 16px;
+	font-weight: 300;
+
+}
+.item-3 p{
+	font-size: 16px;
+	font-weight: 300;
+
+}*/
+/*ekn ek tar vitoe ei mane service-item  div ke niyekaj korbo.*/
+
+.service-item img{
+	margin-bottom: 16px;
+
+}
+.service-item h3{
+	 color: #0f2656;
+	 font-size: 24px;
+	 margin-bottom: 16px;
+
+}
+.service-item p{
+    font-size: 16px;
+	font-weight: 300;
+	line-height: 23px;
+}
+.footer{
+	padding: 40px 0px;
+	text-align: center;
+	color: white;
+	background: green;
+}
+ 
